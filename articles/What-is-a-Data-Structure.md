@@ -13,3 +13,61 @@ Its main operations are given below:
 6. `Merging` – Joining two such lists which have the same type of data elements together is called merging. From this, we get a third list.
 
 ## Characteristics of Data Structure
+1. `Linear or Nonlinear` – This is the order characteristic of the data structure. It arranges the data in a sequential form.
+2. `Static or Dynamic` – This characteristic defines whether the data's format, size, and memory location remain the same or change over time.
+3. `Time complexity` – By this characteristic, we can understand if any algorithm is operated on the data structure, then how much time will be required in any case? (Because the less time the system takes, the more perfect it will be identified)
+4. `Correctness` – By this characteristic, we can understand how precisely the data structure is implemented in the interface.
+5. `Space complexity` – This characteristic defines how carefully memory usage is maintained for a data structure.
+
+## Two Types of Data Structures
+### 1. Primitive Data Structure
+Primitive data structure is a data structure that can be operated directly from machine instructions. That is, it is defined by the system and the compiler.
+
+__Example:__ Integer, Character, Float, Boolean
+
+### 2. Non-primitive Data Structure
+A non-primitive data structure is a data structure that cannot be operated by direct machine instructions. These data structures are derived from primitive data structures.
+
+__Example:__ Array, Linked list, Stack, Queue, etc.
+
+There are two types of non-primitive data structures:
+#### a) Linear Data Structure
+The linear data structure is a data structure in which data items are stored and arranged in a linear form, with one data item connected to another as a line.
+
+__Example:__ Array, Linked list, Stack, Queue, etc.
+
+__Application:__ Linear data structures are mainly in application software development.
+
+#### b) Non-linear Data Structure
+The non-linear data structure is a data structure in which data items are not arranged sequentially. A data item can be associated with any number of other data items.
+
+__Example:__ Tree, Graph.
+
+__Application:__ Non-linear data structures are in Artificial Intelligence and image processing.
+
+## Classification Of Data Structure at a Glance
+### Array
+
+### Linked List
+
+### Queue
+
+### Stack
+
+### Hashing
+
+### Graph
+
+### Tree
+
+## Applications of Data Structures
+Data Structures are used in various fields, such as:
+- Operating System
+- Graphics
+- Computer Design
+- Blockchain
+- Genetics
+- Image Processing
+- Simulation
+
+
