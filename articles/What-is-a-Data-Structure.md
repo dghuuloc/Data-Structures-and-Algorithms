@@ -47,6 +47,18 @@ __Application:__ Non-linear data structures are in Artificial Intelligence and i
 
 ## Classification Of Data Structure at a Glance
 ### Array
+An array is a static data structure i.e. We can allocate memory only at compile time and cannot change it at run-time.
+
+#### 1. One-dimensional (1-D) arrays:
+Arrays that contain only one subscript are called one-dimensional arrays. It is used to store data in linear form.
+
+#### 2. Two-dimensional (2-D) arrays:
+The arrays in which there are two subscripts are called two-dimensional arrays. Two-dimensional arrays are also called matrices and tables.
+
+#### 3. Multi-dimensional (m-D) arrays:
+The arrays which contain more than two subscripts are called Muti-dimensional arrays.
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/array.PNG"/></p>
 
 ### Linked List
 
@@ -59,6 +71,36 @@ __Application:__ Non-linear data structures are in Artificial Intelligence and i
 ### Graph
 
 ### Tree
+A tree is a hierarchical data structure that stores information or data in a hierarchical manner.
+
+#### Structure of a Tree
+- A tree is a set of nodes that generally have a hierarchical relationship.
+- The tree is a non-linear data structure.
+- The tree has a parent-child relationship.
+- We call each data item in the tree a node.
+- The topmost node in the tree is called the root node.
+- A node can have at most one parent. But only the root node has no parent.
+- Each node in a tree can have zero or more child nodes.
+- Such nodes that do not have child nodes are called leaf nodes or terminal nodes.
+- Although the tree always grows upwards, the tree of the data structure always grows downwards.
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/tree.PNG"/></p>
+
+In the data structure, there are the following types of Tree:
+- __General Tree__ – A tree in which a node can have either zero child nodes or can have many child nodes. This type of tree is called a general tree.
+  
+  In this, there is no restriction on child nodes. The topmost node of this tree is called the root node, and it can have many sub-trees.
+  
+- __Binary Tree__ – Binary means two numbers:- 0 and 1. A binary tree is a tree in which each node can have a maximum of two child nodes. In this, there is a restriction on child nodes because each node in a binary tree can have only two child nodes.
+  
+  The topmost node in a binary tree is called the root node and has only two sub-trees: the right and left.
+
+- __Binary Search Tree__ – Binary search tree is a non-linear data structure in which a node is associated with many nodes. It is a binary tree based on a node.
+
+- __AVL Tree__ – This is a type of binary tree. It is also called a self-balancing binary search tree. It has extra information, which is called the balance factor.
+
+- __B-Tree__ – A B-tree is an M-Way (multi-way) tree specially designed for use in disks. A ‘B-tree’ is called a balanced tree.
+
 
 ## Applications of Data Structures
 Data Structures are used in various fields, such as:
