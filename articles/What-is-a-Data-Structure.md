@@ -61,14 +61,91 @@ The arrays which contain more than two subscripts are called Muti-dimensional ar
 <p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/array.PNG"/></p>
 
 ### Linked List
+- A linked list is a non-primitive, linear data structure.
+- A linked list is made up of a group of nodes. Each node has two parts, the first part is the data, and the second is the pointer. The linked list's pointer holds the next node's address. Nodes are used to store the data.
+- A linked list is a data structure whose length can be increased or decreased at runtime. That is, it is dynamic.
+
+__There are three types of linked list:__
+- __Single linked list__ – It has a one-way direction, and each node of a single linked list has two fields:
+    - The first is the field where the data store resides.
+    - The second is a pointer or link.
+- __Doubly linked list__ – It has a two-way direction. Each node of the doubly linked list consists of three parts:
+    - In the first part, the data store is kept.
+    - The second part is the link to the next node.
+    - The third part is the link to the previous one.
+- __Circular linked list__ – Each node in the circular linked list is connected in the form of a circle. There are two types of circular linked lists: `Single circular linked list` and `Double circular linked list`
+    - There is no NULL value at the end of the circular linked list.
+
+In this, the last node is kept containing the address of the first node i.e. the first and last nodes are adjacent.
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/linked-list.PNG"/></p>
 
 ### Queue
+The queue is a non-primitive and linear data structure, and it works on the principle of FIFO (first in, first out) i.e. the item which is added first will be removed first, and the item which is last. It is added to it; it will be removed at the end.
+
+__Following are the operations performed in Queue:__
+- __Enqueue__ – When we add an item or element to the queue, then that operation is called enqueue.
+- __Dequeue__ – When we delete an item from the queue, then that operation is called dequeue.
+- __Peek__ – This operation is used to get the front element of the queue, and the element is not deleted in it.
+- __isEmpty__ – This is used to check whether the queue is empty or not. When the queue is empty, it throws an underflow condition.
+- __isFull__ – It is used to check whether the queue is completely full or not. When the queue is completely full then, it throws the overflow condition.
+
+__Different types of Queue:__
+- __Linear Queue__ – Insertion is done from one end, and deletion is done from the other end. The end from where the insertion is done is called the rear end, and the end from where the deletion is done is called the front end.
+- __Circular Queue__ – In this, all the nodes are presented as a circle. In this, the last element is associated with the first element. It is also called a ring buffer. In the Circular Queue, the item is added from the rear end and removed from the front end.
+- __Priority Queue__ – This is a special type of queue in which each element has a priority associated with it, and it works on the basis of that priority. In this, the element which has the lowest priority is removed first. If the elements have the same priority, then the elements are arranged on the basis of the FIFO principle.
+- __Dequeue__ – The full form of a Dequeue is a double-ended queue. Dequeue is a data structure in which we can add and remove items from both the front and rear ends.
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/queue.PNG"/></p>
 
 ### Stack
+Stack is a special type of linear data structure that works on the principle of LIFO (last in, first out) i.e. the item added last is removed first, and the item added first is added is removed at the end.
+
+__The following operations are performed in the stack:__
+- __push__ – When the item is inserted in the stack, it is called a push operation, and if the stack is full, there is an overflow condition.
+- __pop__ – When an item is deleted from the stack, then this operation is called pop operation. If the stack is empty, then an underflow condition occurs. We can say that the stack overflows when it is completely full, and we can say it underflows when it is completely empty.
+- __isEmpty__ – This operation tells whether the stack is empty or not.
+- __isFull__ – This operation tells whether the stack is full or not.
+- __peek__ – it returns the element at the given position,
+- __count__ – It returns the total number of elements present in the stack.
+- __change__ – It changes the element at the given position.
+- __display__ – It prints all the elements present in the stack.
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/stack.PNG"/></p>
 
 ### Hashing
+The process of generating a fixed length value or key from a set of characters is called hashing. In this process of hashing, a mathematical function is used to generate the value or key.
+
+Or in other words, "the hash value is created by applying a hashing algorithm to the message or data."
+
+Hashing algorithms are also called ‘hash functions’.
+
+We can easily understand hashing with the help of the example:
+_Suppose Sidhu sends a message to Simran, then the hash value for this message is generated and encrypted, and this hash value is sent along with the message. When Simran receives this message, he decrypts this message as well as the hash._
+
+_After this, Simran generates another hash from the message; if both these hashes are the same, then only secure transmission will be possible._
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/hasing.PNG"/></p>
 
 ### Graph
+We can easily understand the data structure graph on the basis of the following points:
+- __1__ – Graph is a non-primitive, non-linear data structure.
+- __2__ – Graph is a group of vertices(node). One vertex is connected with another vertex, and the connection between two vertexes is called the edge. The edge acts as a communication link between two nodes.
+- __3__ – Graph (V, E) is the group where V is the group of vertices and E is the group of edges.
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/graph.PNG"/></p>
+
+__Directed Graph and Undirected Graph:__
+A graph in which the edges have a direction is called a directed graph. And such edges are called directed edges. Directed edges are also called acres. Edges in a graph are represented by a line, and if each line carries an arrow mark, then it is called a directed graph. Directed graphs are also called diagrams.
+
+The graph does not have the direction of the edges; that is, there is no arrow mark in it. It is called an Undirected graph.
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/directed-undirected-graph.PNG"/></p>
+
+__Weighted and Unweighted graphs:__
+Sometimes graphs have edges; they carry weight. These weights are real numbers. Both directed and undirected graphs can be weighted graphs. Graphs that do not carry weight are called unweighted graphs.
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/unweighted-weighted-graph.PNG"/></p>
 
 ### Tree
 A tree is a hierarchical data structure that stores information or data in a hierarchical manner.
@@ -100,7 +177,6 @@ In the data structure, there are the following types of Tree:
 - __AVL Tree__ – This is a type of binary tree. It is also called a self-balancing binary search tree. It has extra information, which is called the balance factor.
 
 - __B-Tree__ – A B-tree is an M-Way (multi-way) tree specially designed for use in disks. A ‘B-tree’ is called a balanced tree.
-
 
 ## Applications of Data Structures
 Data Structures are used in various fields, such as:
