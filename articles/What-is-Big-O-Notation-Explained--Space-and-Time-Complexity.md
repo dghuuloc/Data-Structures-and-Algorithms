@@ -9,35 +9,24 @@ __Big O__ is a notation that allows us to evaluate this, specifically it allows 
 
 <p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/bigocheatsheet.png"/></p>
 
-## Big-Oder of magnitude
-
-A number of very common order of magnitude functions will come up over and over as you study algorithms.
-
-| TERM    | BIG O NOTATION |
-|--------------|:---------:|
-| Constant  |  O(1)  |
-| Linear  |  O(n)  |
-| Logarithmic  |  O(log n)  |
-| Linearithmic  |  O(n log n)  |
-| Quadratic  |  O(n^2)  |
-| Cubic  |  O(n^3)  |
-| Exponential  |  O(2^n)  |
-| Factorial  |  O(n!)  |
-
-
-## Performance comparison
+## Big-O Complexities
 
 The chart below depicts the Big-O complexities mentioned above and the number of elements in the input against the number of operations. The color coding provides a rough judgement on their performance.
 
-<p align="center"><img src="https://www.coengoedegebure.com/content/images/2017/10/bigochart.gif"/></p>
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/complexity.png"/></p>
 
-<p align="center"><img src="https://i.pinimg.com/564x/75/67/ad/7567adfd853ee74ef629c928ecbcecb9.jpg"/></p>
+A number of very common order of magnitude functions will come up over and over as you study algorithms. The table below shows just how big of a difference the number of computations between these-alogorithms are for 10, 100, and 1000 input elements:
 
-<p align="center"><img src="https://codingbootcamps.io/wp-content/uploads/big_o_notation_square-720x720.png"/></p>
+| TERM         | BIG O NOTATION | COMPUTATIONS FOR 10 ELEMENTS | COMPUTATIONS FOR 100 ELEMENTS | COMPUTATIONS FOR 1000 ELEMENTS |
+|--------------|:--------------:|-----------------------------:|------------------------------:|-------------------------------:|
+| Constant     |  O(1)          |                            1 |                             1 |                              1 |
+| Logarithmic  |  O(log n)      |                            3 |                             7 |                             10 |
+| Linear       |  O(n)          |                           10 |                           100 |                           1000 |
+| Linearithmic |  O(n log n)    |                           33 |                           664 |                           9966 |
+| Quadratic    |  O(n^2)        |                          100 |                         10000 |                        1000000 |
+| Exponential  |  O(2^n)        |                         1024 |                   1.26765E+30 |                    1.0715E+301 |
+| Factorial    |  O(n!)         |                      3628800 |                   9.3326E+157 |                4.0238726E+2567 |
 
-The table below shows just how big of a difference the number of computations between these-alogorithms are for 10, 100, and 1000 input elements:
-
-<p align="center"><img src="https://www.coengoedegebure.com/content/images/2017/10/bigoperformance-2.gif"/></p>
 
 ## References 
 
