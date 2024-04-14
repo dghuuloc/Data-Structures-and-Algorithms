@@ -40,4 +40,6 @@ Apart from Big-O notation, there are other notations that are used to describe t
 - [Know thy Complexities](https://www.bigocheatsheet.com/)
 - [Understanding Big O Notation via JavaScript](https://www.digitalocean.com/community/tutorials/js-big-o-notation)
 - [What is Big O Notation Explained: Space and Time Complexity](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
-1
+- [Common Data Structure operations](https://www.30secondsofcode.org/js/s/big-o-cheatsheet/)
+- [Big o Cheatsheet - Data structures and Algorithms with thier complexities](https://www.hackerearth.com/practice/notes/big-o-cheatsheet-series-data-structures-and-algorithms-with-thier-complexities-1/)
+- [Big O Complexity Cheatsheet](https://bitsflow.org/algorithms/big-o-complexities/)
