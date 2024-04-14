@@ -5,6 +5,10 @@
 
 __Big O__ is a notation that allows us to evaluate this, specifically it allows us to evaluate growth rates by analyzing how __time complexity__ (Time of execution) and __space complexity__ (memory usage) scale for a given algorithm when larger input sizes are processed by it. Big O is driven by the upper bound or higher complexity found in an algorithm so the worst case complexity will be the Big O representation of your code..
 
+## Big-O Complexity Cheat Sheet
+
+<p align="center"><img src="https://github.com/dghuuloc/Data-Structures-and-Algorithms/blob/main/images/bigocheatsheet.png"/></p>
+
 ## Big-Oder of magnitude
 
 A number of very common order of magnitude functions will come up over and over as you study algorithms.
