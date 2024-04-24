@@ -13,6 +13,7 @@ public class Main {
 				result.append(str2.charAt(index));
 			}
 		}
+
 		System.out.println(result);
 	}
 }
